@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人知识库</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">个人知识库</div>
+        <div class="nav-links">
+            <a href="#home" class="active">首页</a>
+            <a href="#visualization">数据可视化</a>
+            <a href="#papers">个人论文</a>
+            <a href="#articles">文章收集</a>
+            <a href="#software">掌握软件</a>
+            <a href="#tools">工具分享</a>
+            <a href="#thoughts">个人感悟</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <!-- 首页 -->
+        <section id="home" class="section active">
+            <div class="welcome">
+                <h1>欢迎来到我的个人知识库</h1>
+                <img src="assets/welcome.jpg" alt="欢迎图片" class="welcome-img">
+            </div>
+        </section>
+
+        <!-- 数据可视化 -->
+        <section id="visualization" class="section">
+            <div id="pieChart"></div>
+        </section>
+
+       <!-- 个人论文部分 -->
+<section id="papers" class="section">
+    <div class="paper-container">
+        <div class="paper-header">
+            <h2>从文艺复兴到抽象表现主义的视觉探索</h2>
+            <div class="paper-meta">
+                <span class="author">作者：杨刚玉</span>
+                <span class="date">2023年12月</span>
+            </div>
+        </div>
+
+        <div class="paper-content">
+            <p>
+                在视觉艺术的浩瀚长河中，绘画不仅是技艺的展现，更是时代精神与世界观的镜像。本文旨在探讨绘画风格与世界观之间复杂而微妙的相互塑造关系，通过案例分析，揭示两者如何在历史的长廊中携手并进，共同编织出人类文明的多彩篇章......
+            </p>
+        </div>
+    </div>
+</section>
+       <!-- 文章收集部分 -->
+<section id="articles" class="section">
+    <div class="articles-list">
+        <!-- 论文1 -->
+        <div class="article-item">
+            <h3>汉中市各地积极做好防汛抢险救灾工作 保障人民群众生命财产安全</h3>
+            <div class="article-meta">
+                <span class="author">作者：杨刚玉</span>
+                <span class="journal">期刊：学习强国 汉中学习平台</span>
+                <span class="date">发表时间： 2024-7-21</span>
+            </div>
+            <div class="article-abstract">
+                <h4>摘要</h4>
+                <p>本文报道了佛坪县陈家坝镇抗洪救灾实况.</p>
+            </div>
+            <div class="article-keywords">
+                <strong>关键词：</strong>
+                <span>汉中市</span>、
+                <span>抢险救灾</span>、
+                <span>防洪</span>
+            </div>
+        </div>
+
+        <!-- 论文2 -->
+        <div class="article-item">
+            <h3>佛坪郭家坝村送水解民忧</h3>
+            <div class="article-meta">
+                <span class="author">作者：杨刚玉</span>
+                <span class="journal">期刊：汉中日报</span>
+                <span class="date">发表时间： 2024-7-23</span>
+            </div>
+            <div class="article-abstract">
+                <h4>摘要</h4>
+                <p>本文是对汉中市佛坪县一村的实况报道</p>
+            </div>
+            <div class="article-keywords">
+                <strong>关键词：</strong>
+                <span>为人民服务</span>、
+                <span>乡村振兴</span>、
+                <span>佛坪县</span>
+            </div>
+        </div>
+
+        <!-- 你可以继续按照这个格式添加更多论文 -->
+    </div>
+</section> 
+
+        <!-- 文章收集 -->
+        <section id="articles" class="section">
+            <div class="articles-list">
+                <div class="article">
+                    <h3>人工智能发展现状与趋势</h3>
+                    <p>作者：李四 | 科技导报 | 2023-12-01</p>
+                </div>
+                <!-- 重复6次类似结构 -->
+            </div>
+        </section>
+
+        <!-- 掌握软件 -->
+        <section id="software" class="section">
+            <div class="software-grid">
+                <div class="software-item">
+                    <img src="assets/pr-icon.png" alt="PR">
+                    <h3>Adobe Premiere Pro</h3>
+                </div>
+                <div class="software-item">
+                    <img src="assets/ps-icon.png" alt="PS">
+                    <h3>Adobe Photoshop</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- 工具分享 -->
+        <section id="tools" class="section">
+            <div class="tool-content">
+                <img src="assets/runoob.png" alt="菜鸟教程">
+                <p>菜鸟教程,提供了最全的的web技术基础教程,介绍了HTML教程、CSS教程、Javascript教程、Python基础教程，PHP教程等各种建站基础</p>
+            </div>
+        </section>
+
+        <!-- 个人感悟 -->
+        <section id="thoughts" class="section">
+            <div class="thoughts-content">
+                <h2>网页设计学习感悟</h2>
+                <p>这学期的网页设计课程让我收获颇丰。从最初对HTML和CSS的陌生，到现在能够独立开发网页，这个过程充满了挑战与成长。我深刻理解到网页设计不仅需要掌握技术知识，更需要具备审美能力和用户体验思维。通过课程项目实践，我学会了如何将创意转化为现实，如何让网页既美观又实用。这门课程不仅教会了我技术，更培养了我解决问题的能力。</p>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
